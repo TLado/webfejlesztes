@@ -1,0 +1,17 @@
+Készítette: Ladomérszky Torda
+
+URL cím: https://github.com/TLado/webfejlesztes
+
+Rövid leírás:  
+Az oldal sakk taktikákat mutat be haladó sakkozóknak. 
+A témát három részre bontottam: megnyitások, középjáték és végjáték.
+
+Saját JS kód: 
+Két JS kódot csináltam, két külön oldalon. Az első a megnyitások oldalon található. Azért írtam ezt a kódot, hogy 
+az olvasó a számára releváns megnyitások leírását tudja olvasni anélkül, hogy a többi zavarná. Ha az olvasó ráklikkel 
+az egyik megnyitás képére, akkor megjelenik annak a felirata. Ha az olvasó már nem akarja látni, akkor az oldal alján 
+lévő "leírások eltüntetése" gombra kattintva eltüntetheti a leírásokat.
+A második JS kód a quiz oldalon található. Célja, hogy az olvasót a válaszai alapján a hozzá legközelebb álló
+sakkmesterként azonosítsa. Minden kérdésre négy válasz közül lehet választani, amelyek más stratégiákat mutatnak.
+
+Fonttípus: Montserrat Google Fonttípust használtam az oldal minden szövegére.

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sakk taktikák haladó sakkozóknak. Megnyitások, középjáték és végjáték taktikái.">
+    <meta name="author" content="Ladomérszky Torda">
+    <meta name="copyright" content="Ladomérszky Torda">
+    <title>Sakk taktikák</title>
+    <link rel="icon" type="image/x-icon" href="kepek/favicon/favicon.ico">
+    <link rel="stylesheet" href="sakk.css">
+</head>
+<body>
+    <header class="focim">
+        <h1>Sakk taktikák</h1>
+        <h2>Quiz</h2>
+    </header>
+    <nav>
+        <a href="index.html">főoldal</a>
+        <a href="nyitasok.html">nyitások</a>
+        <a href="kozepjatek.html">középjáték</a>
+        <a href="vegjatek.html">végjáték</a>
+        <a href="kerdoiv.html">kérdőív</a>
+        <a href="#">quiz</a>
+    </nav>
+    <section class="quiz">
+        <h3>Melyik sakkmester lennél?</h3>
+        <form action="#">
+            <p>Melyik sakknyitás a kedvenced?</p>
+            <ol>
+                    <li>
+                        <input type="radio" name="quiz1" id="quiz1_valasz1">
+                        <label for="quiz1_valasz1">a) Király indítása (e4)</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz1" id="quiz1_valasz2">
+                        <label for="quiz1_valasz2">b) Királynő indítása (d4)</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz1" id="quiz1_valasz3">
+                        <label for="quiz1_valasz3">c) Angol megnyitás (c4)</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz1" id="quiz1_valasz4">
+                        <label for="quiz1_valasz4">d) Szicíliai védelem (c5)</label>
+                    </li>
+            </ol>
+            <p>Mi a játékstílusod jellemzője?</p>
+            <ol>
+                    <li>
+                        <input type="radio" name="quiz2" id="quiz2_valasz1">
+                        <label for="quiz2_valasz1">a) Támadó és dinamikus</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz2" id="quiz2_valasz2">
+                        <label for="quiz2_valasz2">b) Kiegyensúlyozott és stratégiai</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz2" id="quiz2_valasz3">
+                        <label for="quiz2_valasz3">c) Rugalmas és változatos</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz2" id="quiz2_valasz4">
+                        <label for="quiz2_valasz4">d) Biztonságot preferáló és védekező</label>
+                    </li>
+            </ol>
+            <p>Melyik sakkstratégiai elvet preferálod?</p>
+            <ol>
+                    <li>
+                        <input type="radio" name="quiz3" id="quiz3_valasz1">
+                        <label for="quiz3_valasz1">a) Előretörés és területszerzés</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz3" id="quiz3_valasz2">
+                        <label for="quiz3_valasz2">b) Figurafenntartás és ellenőrzés</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz3" id="quiz3_valasz3">
+                        <label for="quiz3_valasz3">c) Rugalmasság és pozíciós előny</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz3" id="quiz3_valasz4">
+                        <label for="quiz3_valasz4">d) Ellenfél gyengeségeinek kihasználása</label>
+                    </li>
+            </ol>
+            <p>Mi a hozzáállásod, ha nehézségekbe ütközöl a parti során?</p>
+            <ol>
+                    <li>
+                        <input type="radio" name="quiz4" id="quiz4_valasz1">
+                        <label for="quiz4_valasz1">a) Harcolok és próbálom megfordítani a helyzetet</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz4" id="quiz4_valasz2">
+                        <label for="quiz4_valasz2">b) Megpróbálom stabilizálni a pozícióm</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz4" id="quiz4_valasz3">
+                        <label for="quiz4_valasz3">c) Rugalmasan alkalmazkodom a változó helyzethez</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz4" id="quiz4_valasz4">
+                        <label for="quiz4_valasz4">d) Védekezek és keresem az ellenfél hibáit</label>
+                    </li>
+            </ol>
+            <p>Mi a stratégiai célod a parti elején?</p>
+            <ol>
+                    <li>
+                        <input type="radio" name="quiz5" id="quiz5_valasz1">
+                        <label for="quiz5_valasz1">a) Gyorsan kifejlesztem a bábukat és támadok</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz5" id="quiz5_valasz2">
+                        <label for="quiz5_valasz2">b) Próbálom dominálni az ellenfelet</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz5" id="quiz5_valasz3">
+                        <label for="quiz5_valasz3">c) Rugalmasan alkalmazkodom és változatos pozíciókat keresek</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz5" id="quiz5_valasz4">
+                        <label for="quiz5_valasz4">d) Biztonságosan védekezem és figyelem az ellenfél hibáit</label>
+                    </li>
+            </ol>
+            <p>Mi a hozzáállásod a végjátékhoz?</p>
+            <ol>
+                    <li>
+                        <input type="radio" name="quiz6" id="quiz6_valasz1">
+                        <label for="quiz6_valasz1">a) Szeretek gyorsan befejezni egy partit</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz6" id="quiz6_valasz2">
+                        <label for="quiz6_valasz2">b) Az végjáték fontos, és szeretek előnyös pozíciókat kialakítani</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz6" id="quiz6_valasz3">
+                        <label for="quiz6_valasz3">c) Rugalmas vagyok, de inkább középjátékban érzem jól magam</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz6" id="quiz6_valasz4">
+                        <label for="quiz6_valasz4">d) A végjátékra koncentrálok, és a védekezés is fontos számomra</label>
+                    </li>
+            </ol>
+            <p>Mi a hozzáállásod a sakk középjátékához?</p>
+            <ol>
+                    <li>
+                        <input type="radio" name="quiz7" id="quiz7_valasz1">
+                        <label for="quiz7_valasz1">a) Dinamikus és taktikai elemekre összpontosítok</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz7" id="quiz7_valasz2">
+                        <label for="quiz7_valasz2">b) Stratégiailag tervezem meg a következő lépéseket</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz7" id="quiz7_valasz3">
+                        <label for="quiz7_valasz3">c) Rugalmasan alkalmazkodom a konkrét helyzethez</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="quiz7" id="quiz7_valasz4">
+                        <label for="quiz7_valasz4">d) Biztonságos középjátékot keresek</label>
+                    </li>
+            </ol>
+            <input type="button" value="Válaszok beküldése" id="quiz_bekuldes">
+        </form>
+    </section>
+    <!-- <aside>
+        egyéb infó, nem abszolút releváns
+    </aside> -->
+    <footer>
+        <h3>Az oldal tanulmányi célú.   Ladomérszky Torda &copy; 2023</h3>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+</html>

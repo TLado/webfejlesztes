@@ -1,0 +1,28 @@
+<body>
+    <header>
+        főcím
+    </header>
+    <nav>
+        menü
+    </nav>
+    <section>
+        <header>
+            első rész címe
+        </header>
+        <article>
+            első rész
+        </article>
+        <header>
+            második rész címe
+        </header>
+        <article>
+            második rész
+        </article>
+    </section>
+    <aside>
+        egyéb infó, oldalpanel
+    </aside>
+    <footer>
+        copyright stb
+    </footer>
+</body>
