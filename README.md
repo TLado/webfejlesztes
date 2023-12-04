@@ -2,7 +2,8 @@
 
 Készítette: Ladomérszky Torda
 
-URL cím: [https://github.com/TLado/webfejlesztes](https://tlado.github.io/webfejlesztes/)
+URL cím: https://github.com/TLado/webfejlesztes
+Github Pages cím: https://tlado.github.io/webfejlesztes/
 
 Rövid leírás:  
 Az oldal sakk taktikákat mutat be haladó sakkozóknak. 
